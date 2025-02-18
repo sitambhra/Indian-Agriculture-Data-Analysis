@@ -1,4 +1,4 @@
-<
+
  # Indian Agriculture Data Visualization 🌿
  
 ## Project Overview
@@ -24,7 +24,7 @@ This project visualizes agricultural data for India, utilizing TypeScript, Vite,
 - Displays **Crop with Maximum Production** and **Crop with Minimum Production** for each year.
 - Data from the Indian Agriculture dataset are aggregated and shown in a table using **Mantine v7**.
 
- ##Dataset
+ ## Dataset
 The dataset is provided by the National Data and Analytics Platform, NITI Aayog, which includes data on crop production in India from 1950 to 2020.
   
 ### 2. Bar Chart Component
@@ -64,3 +64,9 @@ npm install
    npm run dev
 ```
 Open the browser, and the app will be rendered automatically.
+
+## PROJECT LINK:
+The project is deployed on Vercel, and you can view it by clicking on the link below:
+```bash
+[View Project](https://indian-agriculture-data-analysis-3w66.vercel.app/)
+```
