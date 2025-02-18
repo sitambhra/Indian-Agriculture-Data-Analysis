@@ -67,6 +67,4 @@ Open the browser, and the app will be rendered automatically.
 
 ## PROJECT LINK:
 The project is deployed on Vercel, and you can view it by clicking on the link below:
-```bash
-[View Project](https://indian-agriculture-data-analysis-3w66.vercel.app/)
-```
+https://indian-agriculture-data-analysis-3w66.vercel.app/ 
