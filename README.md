@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+  # Indian Agriculture Data Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project visualizes agricultural data for India, utilizing TypeScript, Vite, Mantine, and Apache ECharts. It focuses on displaying key statistics related to crop production, and features a table and a bar chart to display data. Additionally, the app supports toggling between light and dark modes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used:
+- **TypeScript** 
+- **Vite Min Template** for fast development and TypeScript setup.
+- **Mantine v7** for building UI components (Table and Button).
+- **Apache ECharts** for data visualization (Bar Chart).
+- **TailwindCSS** for styling.
+- **npm** for managing dependencies.
 
-## Expanding the ESLint configuration
+ 
+Project Structure
+Table: Displays the crop with maximum and minimum production for each year from 1950 to 2020.
+Bar Chart: Visualizes the average crop production for each crop from the dataset.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Features
+A table showing the crop with maximum and minimum production in each year.
+A bar chart displaying the average crop production for each crop.
+A toggle button to switch between light and dark color schemes
+## Task Breakdown:
+### 1. Table Component
+- Displays **Crop with Maximum Production** and **Crop with Minimum Production** for each year.
+- Data from the Indian Agriculture dataset will be aggregated and shown in a table using **Mantine v7**.
+  
+### 2. Bar Chart Component
+- A bar chart that shows the **average crop production** for each crop using **Apache ECharts**.
+- Crop names will be plotted on the x-axis, and the average production on the y-axis.
 
-- Configure the top-level `parserOptions` property like this:
+### 3. Toggle Color Scheme Button
+- There is a button on the page that allows toggling between **light** and **dark** modes.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 4. Deployment
+- The app is deployed on a free hosting platform to showcase the working of the table and chart.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Setup Instructions
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Prerequisites
+- Make sure you have **Node.js** and **npm** installed on your system.
+- You can download Node.js from [here](https://nodejs.org/).
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/indian-agriculture-visualization.git
