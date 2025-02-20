@@ -24,9 +24,6 @@ This project visualizes agricultural data for India, utilizing TypeScript, Vite,
 - Displays **Crop with Maximum Production** and **Crop with Minimum Production** for each year.
 - Data from the Indian Agriculture dataset are aggregated and shown in a table using **Mantine v7**.
 
- ## Dataset
-The dataset is provided by the National Data and Analytics Platform, NITI Aayog, which includes data on crop production in India from 1950 to 2020.
-  
 ### 2. Bar Chart Component
 - A bar chart that shows the **average crop production** for each crop using **Apache ECharts**.
 - Crop names will be plotted on the x-axis, and the average production on the y-axis.
@@ -39,7 +36,9 @@ The dataset is provided by the National Data and Analytics Platform, NITI Aayog,
  
  ![image](https://github.com/user-attachments/assets/66b50494-4abb-4122-9a8f-8cccf54063d7)
  
-
+## Dataset
+The dataset is provided by the National Data and Analytics Platform, NITI Aayog, which includes data on crop production in India from 1950 to 2020.
+  
 ## Setup Instructions
 
 ### Prerequisites
